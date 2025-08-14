@@ -15,4 +15,13 @@ class FormPage(BasePage):
         self.modal_dialog = WebElement(driver, 'body > div.fade.modal.show > div')
         self.btn_close_modal = WebElement(driver, '#closeLargeModal')
 
-        self.gender_label_1 = WebElement(driver, 'label[for="gender-radio-1"]')
+        # self.gender_label_1 = WebElement(driver, 'label[for="gender-radio-1"]')
+        self.hobbies=WebElement(driver,'#hobbies-checkbox-1')
+        self.current_adress=WebElement(driver,'#currentAddress')
+        self.user_form=WebElement(driver,'#userForm')
+
+        self.btn_state=WebElement(driver,'#state')
+        self.btn_city=WebElement(driver,'#city')
+        self.btn_NCR=WebElement(driver,"//*[contains(text(),'NCR')]",'xpath')
+        self.btn_Delhi = WebElement(driver, "//*[contains(text(),'Delhi')]", 'xpath')
+        self.btn_state_input=WebElement(driver,'#react-select-3-input')
