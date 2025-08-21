@@ -25,3 +25,5 @@ class Webtables(BasePage):
         self.total_pages=WebElement(driver,'#app > div > div > div > div.col-12.mt-4.col-md-6 > div.web-tables-wrapper > div.ReactTable.-striped.-highlight > div.pagination-bottom > div > div.-center > span.-pageInfo > span')
 
 
+
+
